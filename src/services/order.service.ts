@@ -30,4 +30,5 @@ class OrderService {
   }
 }
 
-export default new OrderService();
+const orderServiceInstance = new OrderService();
+export default orderServiceInstance;

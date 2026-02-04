@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import cartService from '../services/cart.service';
-import { Cart, CartItem } from '../types';
+import { Cart } from '../types';
 import { FaTrash, FaPlus, FaMinus, FaShoppingCart, FaArrowRight } from 'react-icons/fa';
 
 const CartPage: React.FC = () => {
